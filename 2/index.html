@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <style>
+        *{
+            #form{
+                color:rgb(255, 0, 30);
+                font-size: 25px;
+            }
+            #informasi-pribadi{
+                color:brown;
+                font-size: 20px;
+            }
+            #hobi{
+                color:blue;
+                font-size: 20px;
+            }
+            #mat-kul{
+                color:rgb(208, 0, 255);
+                font-size: 20px;
+            }
+            #pesan-tambahan{
+                color:rgb(6, 130, 15);
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+  
+    
+    <h2>Web Basic</h2>
+    <p id="form">Formulir Pendaftaran</p>
+    <form action="">
+        <fieldset>
+            <legend id="informasi-pribadi">Informasi Pribadi</legend>
+            <label for="nama">Nama      :</label>
+            <input type="text" name="nama"><br><br>
+
+            <label for="umur">Umur      :</label>
+            <input type="number" name="umur"><br><br>
+
+            <label for="email">Email    :</label>
+            <input type="email" name="email"><br><br>
+
+            <label for="password">Password      :</label>
+            <input type="password" name="Password"><br><br>
+
+            <label for="jenis_kelamin">Jenis Kelamin</label><br>
+            <input type="radio" name="jenis_kelamin" value="laki-laki">Laki-laki
+            <input type="radio" name="jenis_kelamin" value="perempuan">Perempuan
+    
+        </fieldset>
+        <fieldset>
+            <legend id="hobi">Hobi</legend>
+            <input type="checkbox" name="memancing" value="Memancing" id="">Memancing<br>
+            <input type="checkbox" name="membaca" value="Membaca" id="">Membaca<br>
+            <input type="checkbox" name="memasak" value="Memasak" id="">Memasak<br>
+
+        </fieldset>
+        <fieldset>
+            <legend id="mat-kul">Mata Kuliah Favorit</legend>
+            <label for="matkul">Mata Kuliah Favorit</label>
+            <select name="matkul" id="">
+                <option value="pweb">P Web</option>
+                <option value="matematika">Matematika</option>
+                <option value="struktur_data">Struktur Data</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend id="pesan-tambahan">Pesan Tambahan</legend>
+            <label for="pesan">Pesan</label><br>
+            <textarea name="pesan" id="" cols="50" rows="4" maxlenght=""></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>
