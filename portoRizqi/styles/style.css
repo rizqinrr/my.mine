@@ -1,0 +1,53 @@
+.navbar-brand {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.display-4 {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(197deg, rgba(255, 255, 255, 1) 0%, rgba(234, 233, 233, 1) 13%, rgba(205, 202, 202, 1) 24%, rgba(189, 185, 185, 1) 61%, rgba(183, 179, 179, 1) 100%);
+}
+
+#portfolios {
+  /* background-color: #b7b3b3; */
+  background-image: linear-gradient(#ffffff, #bdb9b9, #b7b3b3);
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: #212529;
+}
+
+footer a {
+  text-decoration: none;
+  text-align: center;
+  color: #b7b3b3;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.footer-icons a:hover .icon {
+  transform: scale(1.1); /* Memperbesar ikon */
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Efek cahaya putih tipis */
+}
+
+.footer-icons a:hover .icon:hover {
+  transform: scale(1.15); /* Memperbesar ikon lebih lanjut saat disentuh */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.7); /* Efek cahaya putih lebih kuat saat disentuh */
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus,
+.contact-form button:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #ccc;
+}
